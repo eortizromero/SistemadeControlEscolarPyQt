@@ -1,0 +1,183 @@
+QWidget
+{
+    font-family: calibri;
+    padding: 0;
+    margin: 0;
+}
+#ventana_principal{
+    border-image:url(./Resource/Images/girl.jpg);
+}
+
+#widget_main{
+    background: rgba(18,18,20, 245);
+}
+
+#label_session{
+    color: #fff;
+    font-weight: bold;
+    font-size:18pt;
+    border-radius: 20px;
+    border:1px solid #aaa;
+}
+
+#line_username,
+#line_password{
+    font-size:12pt;
+    color:#fff;
+    background: transparent;
+    border-bottom:2px solid #79c143;
+    border-radius:50%;
+    padding:0 10px;
+}
+
+#line_username:focus,
+#line_password:focus{
+    background:rgba(250,250,250, 20);
+}
+#checkbox_rememberme::indicator
+{
+    background:transparent;
+}
+
+#label_icon
+{
+    border-radius:10%;
+    background:#CFCFCF;
+}
+
+#label_icon:hover
+{
+    background: #fff;
+}
+#checkbox_rememberme
+{
+    color:transparent;
+    background:#000;
+    border-radius:10px;
+    border:2px solid #404040;
+}
+
+#checkbox_rememberme:checked{
+    background:#79c143;
+    border:none;
+}
+
+#label_rememberme{
+    color:#fff;
+
+}
+
+#button_login
+{
+    background:#79c143;
+    color:#fff;
+    border-radius:15%;
+    font-size:10pt;
+}
+
+#button_login:hover
+{
+    background:rgba(121, 173, 67, 220);
+}
+
+#ventana_student
+{
+    border-image:url(./Resource/Images/school.jpg);
+}
+
+#label_student
+{
+    color: #fff;
+    font-size: 14pt;
+}
+
+#button_account
+{
+    background: transparent;
+    border-radius: 20px;
+    color:#fff;
+    border:1px solid #aaa;
+}
+
+#ventana_student{
+    background: #212223;
+}
+
+#button_account{
+    background:red;
+    color:#fff;
+}
+
+#button_account:hover
+{
+    background:yellow;
+}
+
+QToolTip {
+    background: rgba(70,70,70, 220);
+    border: 2px solid #79c143;
+    color:#fff;
+    opacity: 200;
+    white-space: pre;
+}
+
+
+#container_welcome{
+    background: transparent;
+}
+
+#title_welcome{
+    color: #fff;
+    font-weight: normal;
+    font-size:9pt;
+    border-radius: 20px;
+    border:1px solid #aaa;
+}
+
+#description_system
+{
+    font-size:9pt;
+    color:#fff;
+
+}
+
+#label_logo
+{
+    border:1px solid #79c143;
+}
+
+#label_p
+{
+    background:#333333;
+    border-radius:5px;
+    color:#aaa;
+    padding-left: 12px;
+}
+
+#arrow_left
+{
+    background: transparent;
+    border-image:url(./Resource/Images/left-cus.png);
+}
+
+#edit,
+#cal{
+    background: transparent;
+}
+
+#container_app
+{
+    background:#212223;
+}
+
+#container_menu
+{
+    background: #fff;
+}
+#page1Button,
+#page2Button
+{
+    background: none;
+    color: #fff;
+    border: 0px;
+}
